@@ -240,7 +240,7 @@ static void tick_handler(struct tm *t, TimeUnits units_changed)
     snprintf(minute_buff, 16 * sizeof(char), "%d %d %d", last, now, next);
   }
 
-  //Set
+  //Set minutes
   text_layer_set_text(minute_layer, minute_buff);
 }
 
