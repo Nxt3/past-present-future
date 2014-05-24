@@ -14,6 +14,7 @@
   "resources": {
     "media": [
       {
+        "characterRegex": "[0-9 A-Z]",
         "type": "font",
         "name": "FONT_MEGAFONT_22",
         "file": "fonts/megafont.ttf"
